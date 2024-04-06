@@ -1,8 +1,4 @@
 
-```javascript
-// Genera un número aleatorio entre 1 y 100 y lo almacena en la variable randomNumber
-let randomNumber = Math.floor(Math.random() * 100) + 1;
-
 // Selecciona elementos del DOM para interactuar con ellos posteriormente
 const guesses = document.querySelector(".guesses");
 const lastResult = document.querySelector(".lastResult");
@@ -110,5 +106,3 @@ guesses.style.backgroundColor = "yellow";
 guesses.style.fontSize = "200%";
 guesses.style.padding = "10px";
 guesses.style.boxShadow = "3px 3px 6px black";
-```
-
